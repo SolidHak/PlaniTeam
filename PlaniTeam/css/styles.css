@@ -1,0 +1,82 @@
+:root {
+    --bg: #ffffff;
+    --text: #333333;
+    --accent: #007bff;
+    --header-bg: #f0f0f0;
+    --card-bg: #ffffff;
+}
+
+/* Mode sombre */
+[data-theme="dark"] {
+    --bg: #1e1e1e;
+    --text: #f5f5f5;
+    --accent: #66d9ef;
+    --header-bg: #2a2a2a;
+    --card-bg: #272727;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+header {
+    background-color: var(--header-bg);
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+nav {
+    margin-top: 0.5rem;
+}
+
+nav button {
+    margin: 4px;
+    padding: 6px 12px;
+    background-color: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: darken(var(--accent), 10%);
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    max-width: 800px;
+    margin: auto;
+    background-color: var(--card-bg);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+input,
+button {
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-block: 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: 2px solid var(--accent);
+}
+
+#calendar {
+    margin-top: 1rem;
+}
+
+.message {
+    font-size: 0.9rem;
+    color: red;
+}

@@ -1,0 +1,24 @@
+{
+    "holidays": [
+        {
+            "country": "FR",
+            "title": "Jour de l'an",
+            "date": "2024-01-01"
+        },
+        {
+            "country": "FR",
+            "title": "Fête du travail",
+            "date": "2024-05-01"
+        },
+        {
+            "country": "BE",
+            "title": "Fête nationale",
+            "date": "2024-07-21"
+        },
+        {
+            "country": "UK",
+            "title": "Bank Holiday",
+            "date": "2024-08-26"
+        }
+    ]
+}
